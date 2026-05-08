@@ -8,13 +8,14 @@ def length():
     3. Pies (1 pie ≈ 0.3048 m)
     4. Pulgadas (1 pulgada ≈ 0.0254 m)
     """
-    m = 1000
-    km = m/1000
-    milla = m/1609.34
-    pie = m / 0.3048
-    pulgadas = m / 0.0254
+    metros = 1000
+
+    km = metros / 1000
+    millas = metros / 1609.34
+    pies = metros / 0.3048
+    pulgadas = metros / 0.0254
+
     print(km)
-    print(milla)
-    print(pie)
+    print(millas)
+    print(pies)
     print(pulgadas)
-length()

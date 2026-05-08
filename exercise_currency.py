@@ -8,14 +8,14 @@ def currency():
     3. El monto en reales brasileños
     """
     pesos = 10000
-    tasa_dolar = 1500  # 1 dólar = 1500 pesos
-    tasa_euro = 1600   # 1 euro = 1600 pesos
-    tasa_real = 250    # 1 real = 250 pesos
-    dolares= pesos/tasa_dolar
-    euros = pesos/tasa_euro
-    reals = pesos/tasa_real
+    tasa_dolar = 1500
+    tasa_euro = 1600
+    tasa_real = 250
+
+    dolares = pesos / tasa_dolar
+    euros = pesos / tasa_euro
+    reales = pesos / tasa_real
+
     print(dolares)
     print(euros)
-    print(reals)
-
-currency()
+    print(reales)
